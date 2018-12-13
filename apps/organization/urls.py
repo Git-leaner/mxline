@@ -6,6 +6,7 @@ from django.conf.urls import url, include
 
 from .views import OrgView, AddUserAskView, OrgHomeView, OrgCourseView, OrgDescView, OrgTeacherView, AddFavView
 from .views import TeacherListView, TeacherDetailView
+app_name='org'
 
 urlpatterns = [
     #课程机构列表页
